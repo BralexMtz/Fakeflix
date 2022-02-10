@@ -84,7 +84,7 @@ const SignIn = () => {
 				onClick={() => dispatch(anonymousSignInStart())}
 				disabled={isLoading}
 			>
-				{isLoading ? <Loader /> : 'Click here Love'}
+				{isLoading ? <Loader /> : 'Click here Liz Love!'}
 			</motion.button>
 		</motion.form>
 	)

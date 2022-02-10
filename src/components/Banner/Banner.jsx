@@ -75,7 +75,7 @@ const Banner = ({ type }) => {
 							<Link
 								className="Banner__button"
 								onClick={handlePlayAnimation}
-								to={"/play"}
+								to={"https://vimeo.com/675923315"}
 							>
 								<FaPlay />
 								<span>Play</span>
