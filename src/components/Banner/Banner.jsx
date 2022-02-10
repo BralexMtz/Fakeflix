@@ -2,7 +2,6 @@ import "./banner.scss";
 import React from "react";
 import { motion } from "framer-motion";
 import { staggerOne, bannerFadeInLoadSectionVariants, bannerFadeInVariants, bannerFadeInUpVariants } from "../../motionUtils";
-import { BASE_IMG_URL } from "../../requests";
 import { FaPlay } from "react-icons/fa";
 import { BiInfoCircle } from "react-icons/bi";
 import { randomize, truncate } from "../../utils";
@@ -31,7 +30,7 @@ const Banner = ({ type }) => {
 	const { loading, error, data: results } = myData;
 	const finalData = results[randomize(results)];
 	const fallbackTitle = finalData?.title || finalData?.name || finalData?.original_name;
-	const description = truncate(finalData?.overview, 150);
+	
 	const dispatch = useDispatch();
 
 	const handlePlayAnimation = event => {
