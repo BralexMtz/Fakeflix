@@ -35,6 +35,8 @@ const Banner = ({ type }) => {
 
 	const handlePlayAnimation = event => {
 		event.stopPropagation();
+		window.location.href="https://vimeo.com/675923315";
+
 	};
 
 	const handleModalOpening = () => {
@@ -75,7 +77,6 @@ const Banner = ({ type }) => {
 							<Link
 								className="Banner__button"
 								onClick={handlePlayAnimation}
-								to={"https://vimeo.com/675923315"}
 							>
 								<FaPlay />
 								<span>Play</span>
