@@ -62,7 +62,7 @@ const Banner = ({ type }) => {
 					animate='animate'
 					exit='exit'
 					className="Banner"
-					style={{backgroundImage: `url(${BASE_IMG_URL}/${finalData?.backdrop_path})`}}
+					style={{backgroundImage: `url("https://i.pinimg.com/564x/36/dc/82/36dc82991111e1cf97b00787cb7d6710.jpg")`}}
 				>
 					<motion.div
 						className="Banner__content"
@@ -71,7 +71,7 @@ const Banner = ({ type }) => {
 						animate='animate'
 						exit='exit'
 					>
-						<motion.h1 variants={bannerFadeInUpVariants} className="Banner__content--title">{fallbackTitle}</motion.h1>
+						<motion.h1 variants={bannerFadeInUpVariants} className="Banner__content--title">Las aventuras de Liz y Brayan</motion.h1>
 						<motion.div variants={bannerFadeInUpVariants} className="Banner__buttons">
 							<Link
 								className="Banner__button"
@@ -89,7 +89,7 @@ const Banner = ({ type }) => {
 								<span>More info</span>
 							</button>
 						</motion.div>
-						<motion.p variants={bannerFadeInUpVariants} className="Banner__content--description">{description}</motion.p>
+						<motion.p variants={bannerFadeInUpVariants} className="Banner__content--description">Cuando dos personas se quieren con el corazón es inevitable su reencuentro. Revive la historia de estos dos intrepidos enamorados.</motion.p>
 					</motion.div>
 					<div className="Banner__panel" />
 					<div className="Banner__bottom-shadow" />
