@@ -61,7 +61,7 @@ const Banner = ({ type }) => {
 					animate='animate'
 					exit='exit'
 					className="Banner"
-					style={{backgroundImage: `url("https://i.pinimg.com/564x/36/dc/82/36dc82991111e1cf97b00787cb7d6710.jpg")`}}
+					style={{backgroundImage: `url("https://i.pinimg.com/originals/dc/7c/60/dc7c60bfe49ef4d23d92eef3464837ea.jpg")`}}
 				>
 					<motion.div
 						className="Banner__content"
